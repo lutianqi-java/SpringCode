@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!--<bean id="myBean" class="cn.lyk.myspring.MyBean">-->
+    <!--<property name="tag" value="test"/>-->
+    <!--</bean>-->
+
+    <bean id="personFactory" class="SpringDemo.myfactorybean.PersonFactoryBean">
+        <property name="personInfo" value="liyukun,beijingshimiyunqu,30"/>
+    </bean>
+
+</beans>
