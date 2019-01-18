@@ -4,9 +4,9 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <!--<bean id="myBean" class="cn.lyk.myspring.MyBean">-->
-    <!--<property name="tag" value="test"/>-->
-    <!--</bean>-->
+    <bean id="person" class="SpringDemo.myfactorybean.Person">
+    <property name="name" value="test"/>
+    </bean>
 
     <bean id="personFactory" class="SpringDemo.myfactorybean.PersonFactoryBean">
         <property name="personInfo" value="liyukun,beijingshimiyunqu,30"/>
