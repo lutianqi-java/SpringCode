@@ -19,6 +19,7 @@ public class App {
         Resource res = new ClassPathResource("applicationContext.xml");
         Resource ress = new FileSystemResource("");
         BeanFactory bf = new XmlBeanFactory(res);
+        System.out.println("测试master");
 //
 //        //获得bean
         Person personFactory = bf.getBean("person", Person.class);
