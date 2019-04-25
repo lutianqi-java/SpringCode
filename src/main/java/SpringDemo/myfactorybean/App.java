@@ -18,6 +18,10 @@ public class App {
         //实例化BeanFactory
         Resource res = new ClassPathResource("applicationContext.xml");
         Resource ress = new FileSystemResource("");
+
+
+
+        System.out.println("测试dev");
         BeanFactory bf = new XmlBeanFactory(res);
         System.out.println("测试master");
 //
