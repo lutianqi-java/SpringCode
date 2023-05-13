@@ -9,25 +9,22 @@ package SpringDemo;
 public class DevTest {
 
 
-  public static void main(String[] args) {
-    System.out.println("312213");
-    System.out.println("312213");
-    System.out.println("312213");
-    System.out.println("312213");
-    System.out.println("312213");
-    System.out.println("312213");
+    public static void main(String[] args) {
+        System.out.println("312213");
+        System.out.println("312213");
+        System.out.println("312213");
+        System.out.println("312213");
+        System.out.println("312213");
+        System.out.println("312213");
 
-    System.out.println("312213");
+        System.out.println("312213");
 
-    System.out.println("312213");
+        System.out.println("312213");
 
-    System.out.println("312213");
+        System.out.println("312213");
 
-    String name = System.getProperty("user");
-    System.exit(1);
+        System.out.println("312213");
 
-    System.out.println("312213");
-
-    System.out.println("312213");
-  }
+        System.out.println("312213");
+    }
 }
